@@ -6,7 +6,7 @@
 /*   By: mmraz <mmraz@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/10 14:14:35 by mmraz             #+#    #+#             */
-/*   Updated: 2018/12/13 19:53:45 by mmraz            ###   ########.fr       */
+/*   Updated: 2018/12/14 11:25:29 by mmraz            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,9 @@ int     main(int argc, char **argv)
     if (argc > 1 && fd > 0)
     {
         get_next_line(fd, &line);
-        //printf("%s\n", line);
+        printf("%s\n", line);
         get_next_line(fd, &line);
+        printf("%s\n", line);
     }
     return (0);
 }
